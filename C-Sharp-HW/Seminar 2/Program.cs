@@ -102,6 +102,7 @@ bool IsMultipleOf (int number) {
 Console.WriteLine(IsMultipleOf(88));
 
 ---
+seminar 2 h/w
 Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
 456 -> 5
@@ -156,11 +157,4 @@ if (weekNumber <= 7 && weekNumber > 5) {
    Console.WriteLine(false);
 } 
 
-*/
-
-
-
-
-
-
-
+----
