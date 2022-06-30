@@ -1,4 +1,6 @@
-﻿/* print a random number from an array [10,99] and show the biggest digit in that number
+﻿/* 
+
+print a random number from an array [10,99] and show the biggest digit in that number
 
 78 -> 8
 12 -> 2
@@ -157,4 +159,4 @@ if (weekNumber <= 7 && weekNumber > 5) {
    Console.WriteLine(false);
 } 
 
-----
+*/
