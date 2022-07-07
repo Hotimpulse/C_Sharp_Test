@@ -169,7 +169,7 @@ Seminar 4 H/W
 2, 4 -> 16
 -------Solution
 
-Console.WriteLine("Enter numbers consequtively to see the result of number 1 to the power of number 2");
+Console.WriteLine("Enter numbers consecutively to see the result of number 1 to the power of number 2");
 
 Console.WriteLine("Enter 1st number: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
