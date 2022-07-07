@@ -155,20 +155,32 @@ int [] GetBinaryArray(int size) {
     }
     return resultArray;
 }
----------
-h/w
-
+--------
 String str;
 char[] StrChar = Str.ToCharArray();
-и не важно числа или символы. Какраз таки массив символов создаётся
-
+и не важно числа или символы. массив символов создаётся
+---------
+Seminar 4 H/W
 
 Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
 3, 5 -> 243 (3⁵)
 
 2, 4 -> 16
+-------Solution
 
+Console.WriteLine("Enter numbers consequtively to see the result of number 1 to the power of number 2");
+
+Console.WriteLine("Enter 1st number: ");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter 2nd number: ");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+double finalNumber = Math.Pow(firstNumber, secondNumber);
+Console.WriteLine($"{firstNumber} to the power of {secondNumber} equals {finalNumber}");
+
+--------------
 Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
 452 -> 11
@@ -176,11 +188,39 @@ char[] StrChar = Str.ToCharArray();
 82 -> 10
 
 9012 -> 12
+-------Solution
+Console.WriteLine("Input any number to see the sum of the numbers it consists of: ");
 
+int anyNumber = Convert.ToInt32(Console.ReadLine());
+int sum = 0;
+
+while (anyNumber != 0) {
+    sum+=anyNumber % 10;
+    anyNumber /= 10;
+}
+
+Console.WriteLine($"The sum of consisting digits is {sum}");
+----------
 Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 
 6, 1, 33 -> [6, 1, 33]
+-------Solution
+int[] array = new int[8];
+
+int index = 0;
+
+while (index < array.Length) 
+{
+    array[index] = new Random().Next(0,1000); 
+    index++;
+}
+Console.WriteLine($"[{String.Join("; ", array)}]");
 */
+
+
+
+
+
 
