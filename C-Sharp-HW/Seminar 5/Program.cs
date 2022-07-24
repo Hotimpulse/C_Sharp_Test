@@ -58,7 +58,6 @@ Console.WriteLine($"Original array: {String.Join("; ", array)}");
 Console.WriteLine($"Count of positive numbers in a given array: {count}");
 --------end of cw
 H/W
-
 *Начиная с этого дз при оценке учитывается оформление и названия переменных. Будьте внимательны)
 *Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
 Напишите программу, которая покажет количество чётных чисел в массиве.
@@ -123,5 +122,5 @@ for (int i = 0; i < numOfArray; i++) {
 
 difference = max - min;
 Console.WriteLine($"The difference between {max} and {min} is {difference}");
-
 */
+
